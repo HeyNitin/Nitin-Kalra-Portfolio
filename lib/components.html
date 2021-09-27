@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+
+    <!-- <! First way of doing css
+    
+    -- <style>
+        body{
+
+            color: red
+        }
+
+    </style> -->
+
+    <link href="\styles.css" rel="Stylesheet" />
+</head>
+
+<body>
+    <!-- Second way of doing CSS
+        <h1 style="color:red">Nitin's component library</h1> -->
+    <h1>Nitin's component library</h1>
+
+    <div>Nitin Kalra</div>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This is normal text. This is free flowing and would seem like a paragraph.</p>
+    <small>This is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container container-fluid">This is a fluid container and it'll go till end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is center container and it'll go till the specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+
+    <ul class="list-non-bullet">
+
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+
+    </ul>
+
+    <h3>unordered inline list</h3>
+
+    <ul class="list-non-bullet ">
+
+        <li class="list-inline">Inline Item One</li>
+        <li class="list-inline">Inline Item Two</Li>
+        <li class="list-inline">Inline Item Three</li>
+
+    </ul>
+
+    <h3>reversed ordered list</h3>
+
+    <ol reversed>
+
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+
+    </ol>
+
+
+    <hr>
+
+    <h2>@Nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IamBrand</div>
+
+        <ul class="list-non-bullet nav-pills">
+
+            <li class="list-inline link-active">
+                <a class="link" href="/">Home</a>
+            </li>
+
+            <li class="list-inline">
+                <a class="link" hred="/">Projects</a>
+            </li>
+
+            <li class="list-inline">
+                <a class="link" href="/">About me</a>
+            </li>
+
+        </ul>
+
+
+    </nav>
+    <hr>
+
+    <h2>Header</h2>
+
+    <header class="hero">
+
+        <img class="hero-img" src="\images/hero.svg" />
+        <h1 class="hero-header">hading inside <span style = "color: var(--primary-color);">hero</span></h1>
+
+    </header>
+
+    <hr>
+
+    <h2>@Section</h2>
+        
+    <section class="section">
+        <div class="container container-center">
+            <h1>White section</h1>
+            <p>This will have white backgroundx
+        </div>
+    </section>
+
+    
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background</p>
+        </div>
+    </section>
+
+    
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">header inside footer</div>
+        <ui class="social-links">
+           
+           
+            <li class="list-inline"> <a class="link" href="/">socialone</a></li>
+            
+            <li class="list-inline"> <a class="link" href="/">sociatwo</a></li>
+
+
+            <li class="list-inline"> <a class="link" href="/">socialthree</a></li>
+   
+        </ui>
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

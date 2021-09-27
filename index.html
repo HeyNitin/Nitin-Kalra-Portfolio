@@ -4,138 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | Nitin Kalra</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Nitin's component library</h1>
-
-    <div class="something">Nitin Kalra</div>
     
-    <hr >
+    <h1>Nitin Kalra Portfolio</h1>
 
-    <h2>@typography</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">@HeyNitin</div>
 
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>This is normal text. This is free flowing and would seem like a paragraph.</p>
-    <small>This is relatively smaller text</small>
+        <ul class="list-non-bullet nav-pills">
 
-    <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it'll go till end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is center container and it'll go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-
-    <ul>
-
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul>
-
-        <li>Inline Item One</li>
-        <Li>Inline Item Two</Li>
-        <li>Inline Item Three</li>
-
-    </ul>
-
-    <h3>reversed ordered list</h3>
-
-    <ol>
-
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-
-    </ol>
-
-
-    <hr>
-
-    <h2>@Nav</h2>
-
-    <nav>
-        <div>IamBrand</div>
-
-        <ul>
-
-            <li>
-                <a href="/">Home</a>
+            <li class="list-inline link-active">
+                <a class="link" href="/index.html">Home</a>
             </li>
 
-            <li>
-                <a hred="/">Projects</a>
+            <li class="list-inline">
+                <a class="link" href="/projects.html">Projects</a>
             </li>
 
-            <li>
-                <a href="/">About me</a>
+            <li class="list-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
 
         </ul>
-
-
     </nav>
-    <hr>
 
-    <h2>Header</h2>
 
-    <header>
+        <h2>Header</h2>
 
-        <img src="images/hero.svg"/>
-        <h1>hading inside hero</h1>
+    <header class="hero">
+
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-header">Nitin Kalra the  <span style = "color: var(--primary-color);">Builder</span></h1>
 
     </header>
 
     <hr>
 
-    <h2>@Section</h2>
 
-    <section>
-        <h3>White section</h3>
-        <p>This will have white background/p>
+
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>About me</h1>
+                <p>Hi, I'm Nitin Kalra, I'm working in Capgemini as SAP ABAP Analyst. I'm learning Web-Development. I've worked on HTML CSS, Java-Script and would be learning react next. </p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section class="section">
+        <div class="container container-center">
+                <h1>Projects</h1>
+                <p>You can see all my projects here</p>
+                <a class="link link-secondary" href="/projects.html">Projects</a>
+        </div>
     </section>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
+                <h1>Blogs</h1>
+                <p>You can read all my Blogs here</p>
+                <a class="link link-primary" href="/blogs.html">Blogs</a>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
+        
+    <footer class="footer">
+        <div class="footer-header">Connect with me on</div>
+        <ui class="social-links">
+           
+           
+            <li class="list-inline"> <a class="link" target="_blank" href="https:\\Twitter.com/07_Nitin_07">Twitter</a></li>
+            
+            <li class="list-inline"> <a class="link" target="_Blank" href="https:\\github.com/heynitin">Git-hub</a></li>
 
-    <footer>
-        <div>header inside footer</div>
-        <ui>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+
+            <li class="list-inline"> <a class="link" target="_blank" href="https://www.linkedin.com/in/heynitin/">Linkedin</a></li>
+   
         </ui>
 
 
     </footer>
-
 
 
 
