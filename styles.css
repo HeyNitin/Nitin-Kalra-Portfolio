@@ -27,6 +27,7 @@ hr {
 
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 .container-centered02 {
@@ -45,7 +46,7 @@ hr {
 .container-centered01{
 
     max-width: 350px;
-    margin-left: 37rem;
+    margin: auto;
 }
 
 
@@ -180,24 +181,6 @@ hr {
     padding: 1rem 0rem;
     font-size: larger;
     font-weight: bold;
-}
-
-.date-margin{
-
-    margin: 16rem;
-}
-
-.title-project02{
-
-    margin: 1rem;
-    margin-left: -12rem;
-}
-
-
-.title-project01{
-
-    margin: 1rem;
-    margin-left: -17rem;
 }
 
 
